@@ -283,6 +283,7 @@ global:
           bindAddress: 0.0.0.0
           port: 2719
           tls:
+          # secretName: "gardener-admission-controller-cert"
             caBundle: |
               -----BEGIN CERTIFICATE-----
               ...
